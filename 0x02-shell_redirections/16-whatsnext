@@ -1,3 +1,2 @@
-#!/bin/bash
-egrep ^[[ :alpha:]]
-/etc/ssh/sshd_config
+i#!/bin/bash
+egrep  -A 3 "root" /etc/passwd
